@@ -4,13 +4,14 @@
  * SPDX-License-Identifier: MIT
  *
  *
- * @Hardwares: PaPerS3
+ * @Hardware: PaperS3
  * @Dependent Library:
  * M5Unified@^0.2.3: https://github.com/m5stack/M5Unified
  * tanakamasayuki/I2C BM8563 RTC@^1.0.4:https://github.com/tanakamasayuki/I2C_BM8563
  * epdiy=https://github.com/vroland/epdiy.git#d84d26ebebd780c4c9d4218d76fbe2727ee42b47 
  */
 
+ #include "epdiy.h"
  #include "I2C_BM8563.h"
  #include <WiFi.h>
  #include <M5Unified.h>
